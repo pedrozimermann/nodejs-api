@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://nodejs-api-09jc.onrender.com/videos
 Content-Type: application/json
 
 { 
@@ -9,17 +9,17 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos
+GET https://nodejs-api-09jc.onrender.com/videos
 
 ###
-PUT http://localhost:3333/videos/7a45b9ae-a612-40c7-86ef-a8315442b729
+PUT https://nodejs-api-09jc.onrender.com/videos/c3845fff-5a66-41e7-9f25-97a32ec3f78e
 Content-Type: application/json
 
 {
-  "title": "Video 02",
+  "title": "Video Teste",
   "description": "Esse é o primeiro vídeo",
   "duration": 180
 }
 
 ###
-DELETE http://localhost:3333/videos/7a45b9ae-a612-40c7-86ef-a8315442b729
+DELETE https://nodejs-api-09jc.onrender.com/videos/c3845fff-5a66-41e7-9f25-97a32ec3f78e
